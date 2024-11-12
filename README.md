@@ -3,7 +3,6 @@ Design demonstrativo para cadastro e navegação web.
 
 
 
-
 ![Captura de tela 2024-11-12 141827](https://github.com/user-attachments/assets/c1fb7b47-d9de-432a-b877-d9b6df35b5d1)
 
 ![Captura de tela 2024-11-12 141821](https://github.com/user-attachments/assets/efff82fe-651b-435e-9ee0-e9cc9483c0fe)
