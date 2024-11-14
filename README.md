@@ -1,12 +1,27 @@
-# Front-Cadastro-Biblioteca
-Design demonstrativo para cadastro e navegação web.
+# Biblioteca
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
 
+## Development server
 
-![Captura de tela 2024-11-12 141827](https://github.com/user-attachments/assets/c1fb7b47-d9de-432a-b877-d9b6df35b5d1)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-![Captura de tela 2024-11-12 141821](https://github.com/user-attachments/assets/efff82fe-651b-435e-9ee0-e9cc9483c0fe)
+## Code scaffolding
 
-![Captura de tela 2024-11-12 135246](https://github.com/user-attachments/assets/24506e51-68b1-4ff8-9bc0-9f69f4710fd1)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-![Captura de tela 2024-11-12 142357](https://github.com/user-attachments/assets/2e27eaf7-ad99-4685-8d92-3ce5b7a8fd53)
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

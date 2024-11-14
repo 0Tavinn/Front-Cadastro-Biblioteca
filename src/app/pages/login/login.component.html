@@ -1,0 +1,24 @@
+
+<div class="flex items-center justify-center min-h-screen bg-[#45543D]">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+    <form method="POST" class="space-y-6">
+      <h1 class="text-2xl font-bold text-[#45543D]">Login</h1>
+      
+      <div>
+        <label for="email" class="block text-gray-900">E-mail</label>
+        <input type="email" placeholder="Digite seu e-mail" autofocus="true" class="w-full px-4 py-2 border border-gray-700 rounded-lg focus:outline-none focus:border-[#45543D]"/>
+      </div>
+      
+      <div>
+        <label for="password" class="block text-gray-900">Senha</label>
+        <input type="password" placeholder="Digite sua senha" class="w-full px-4 py-2 border border-gray-700 rounded-lg focus:outline-none focus:border-[#45543D]"/>
+      </div>
+      
+      <div class="text-right">
+        <a href="/" class="text-blue-500 hover:underline text-sm">Esqueci minha senha</a>
+      </div>
+      
+      <button routerLink="/adm" type="submit" class="w-full bg-[#45543D] text-white py-2 rounded-lg font-semibold hover:bg-[#45543D] transition duration-300">Acessar</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,135 @@
+
+<nav class="bg-[#45543D]">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex h-16 items-center justify-between">
+        <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <!-- Mobile menu button-->
+          <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            <span class="absolute -inset-0.5"></span>
+            <span class="sr-only"></span>
+
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex shrink-0 items-center">
+            <img class="h-8 w-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX1yeYsgwSkn3PwgNe5RCiE4ugyBSE8_0WJg&s" alt="Your Company">
+          </div>
+          <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-green-900 hover:text-white" aria-current="page">Inicio</a>
+              <a linkRout='/adm' href="/adm" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-green-900 hover:text-white">Cadastro</a>
+              <a href="#" class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-green-900 hover:text-white">Livros</a>
+              <a href="" class="rounded-md bg-green-900 px-3 py-2 text-sm font-medium text-white">Orçamento</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Notificações e perfil -->
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <!-- Botão de Notificações -->
+          <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+            <span class="absolute -inset-1.5"></span>
+            <span class="sr-only">View notifications</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+            </svg>
+          </button>
+
+          <!-- Menu do Usuário -->
+          <div class="relative ml-3">
+            <div>
+              <button type="button" class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                <span class="absolute -inset-1.5"></span>
+                <span class="sr-only">Abrir menu do usuário</span>
+                <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="Imagem do Usuário">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<body class="bg-gray-100 p-8">
+
+    <div class="max-w-5xl mx-auto bg-white shadow-lg rounded-lg p-6">
+        <!-- Caminho e título -->
+        <div class="text-sm text-gray-500 mb-4">
+            <a href="#" class="hover:text-gray-700">Fichas Técnicas</a> &gt; 
+            <a href="#" class="hover:text-gray-700">Orçamento</a> &gt; 
+            <span>Usúarios</span>
+        </div>
+        <h1 class="text-2xl font-bold text-gray-800 mb-6">Detalhes dos Orçamentos</h1>
+
+        <!-- Informações principais e botões -->
+        <div class="flex justify-between items-center mb-6">
+            <div>
+                <p><strong>Nome:</strong> Usúarios</p>
+                <p><strong>Categoria:</strong> Categoria exemplo</p>
+                <p><strong>Código:</strong> #12345</p>
+            </div>
+            <div>
+                <button class="bg-[#45543D] text-white py-2 px-4 rounded-md hover:bg-green-800 mr-2">Alterar dados</button>
+                <button class="bg-white text-[#45543D] py-2 px-4 rounded-md border border-[#45543D] hover:bg-green-200">Outras opções</button>
+            </div>
+        </div>
+
+        <!-- Aba de navegação -->
+        <div class="flex space-x-4 mb-6 border-b border-gray-200">
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Dados de compra</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Aproveitamento</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Unidade de medida</button>
+            <button class="py-2 px-4 font-medium text-[#45543D] border-b-2 border-green-800">Histórico de compras</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Fornecedores</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Em uso</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Informação Adicional</button>
+            <button class="py-2 px-4 font-medium text-gray-600 hover:text-[#45543D] focus:text-green-500">Feedbacks</button>
+        </div>
+
+        <!-- Tabela Histórico de compras -->
+        <div class="overflow-auto">
+            <table class="w-full text-left">
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="py-2 px-4 text-gray-600">Atualizado em</th>
+                        <th class="py-2 px-4 text-gray-600">Preço</th>
+                        <th class="py-2 px-4 text-gray-600">Unidade</th>
+                        <th class="py-2 px-4 text-gray-600">Fornecedor</th>
+                        <th class="py-2 px-4 text-gray-600">Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b">
+                        <td class="py-2 px-4 text-gray-700">28/10/2020 - 12:09:20</td>
+                        <td class="py-2 px-4 text-gray-700">R$45,00</td>
+                        <td class="py-2 px-4 text-gray-700">Livro</td>
+                        <td class="py-2 px-4 text-gray-700">Fornecedor 1</td>
+                        <td class="py-2 px-4 text-gray-700">#5379</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="py-2 px-4 text-gray-700">28/10/2020 - 11:32:41</td>
+                        <td class="py-2 px-4 text-gray-700">R$60,00</td>
+                        <td class="py-2 px-4 text-gray-700">Livro</td>
+                        <td class="py-2 px-4 text-gray-700">Fornecedor 2</td>
+                        <td class="py-2 px-4 text-gray-700">#3680</td>
+                    </tr>
+                    <!-- Replicar as linhas conforme necessário -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Botão Cadastrar Novo Ingrediente -->
+        <div class="text-right mt-6">
+            <button class="bg-[#45543D] text-white py-2 px-6 rounded-md hover:bg-green-800">Cadastrar novo ingrediente</button>
+        </div>
+    </div>
+
+</body>
+
